@@ -1,0 +1,655 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="generator"
+content="HTML Tidy for Java (vers. 2009-12-01), see jtidy.sourceforge.net" />
+<meta http-equiv='Content-Type'
+content='text/html; charset=iso-8859-1' />
+<title>factura</title>
+<style type='text/css'>
+/*<![CDATA[*/
+ 
+body table{ 
+font: 10px arial, sans-serif; 
+padding: 0px; 
+} 
+@page { 
+margin-left: 0.2in; 
+margin-right: 0.2in; 
+size: 8.5in 11.1in;
+} 
+.Head12{ 
+font: 12px arial, sans-serif; 
+font-weight: bold;  
+word-break: normal; 
+size: letter; 
+} 
+.Head8{ 
+font: 8px arial, sans-serif; 
+font-weight: bold; 
+word-break: normal; 
+} 
+.Head10{ 
+font: 10px arial, sans-serif; 
+font-weight: bold;  
+word-break: normal; 
+} 
+.Text8{ 
+font: 8px arial, sans-serif; 
+} 
+.Text10{ 
+font: 10px arial, sans-serif; 
+} 
+.Text9{ 
+font: 10px arial, sans-serif; 
+} 
+.Head18{ 
+font: 18px arial, sans-serif; 
+font-weight: bold;  
+} 
+.divCadenas { 
+width: 200px; 
+background-color: white; 
+word-break: break-all; vertical-align: text-top; 
+} 
+.LineBottom { 
+border-bottom: 1px solid #f4f2f2; 
+padding: 0px; 
+} 
+.HeadRojo { 
+background-color: #ef2c3a; 
+color: white; 
+word-break: break-word; 
+font-weight: bold; 
+text-align: center; 
+vertical-align: text-bottom; 
+} 
+.HeadBlanco { 
+background-color: white; 
+color: black; 
+word-break: break-word; 
+font-weight: bold;  
+text-align:center; 
+vertical-align: text-bottom; 
+} 
+.Gris { 
+color: #3f3f3f; 
+word-break: break-all; 
+text-align: center; 
+vertical-align: text-top; 
+} 
+.HeadClaro { 
+background-color: #e2e0e0; 
+color: black; 
+word-break: break-word; 
+} 
+.Center { 
+text-align: center; 
+vertical-align: middle; 
+} 
+.Right { 
+text-align: right; 
+} 
+.Negrita { 
+font-weight: bold;  
+} 
+.Top { 
+vertical-align: text-top; 
+} 
+.Bottom { 
+vertical-align: text-bottom; 
+} 
+/*]]>*/
+</style>
+</head>
+<body>
+<table style='width: 100%; height: 10in;'>
+<tr>
+<td>
+<table style='width:100%;'>
+<tr>
+<td style='width:20%; max-width:20%; min-width:20%;'><img
+src='c:/fuentes/HLCore/logo.png'
+style='width:20%; max-width:20%; min-width:20%;' /></td>
+<td style='width:60%; max-width:60%; min-width:60%;'>
+<table style='width:100%;'>
+<tr>
+<td class='Center Head18'>Quesos y Carnes Frias del Norte S.
+A.</td>
+</tr>
+<tr>
+<td class='Center Head10 Negrita'>R.F.C. QCF980101CT4, Regimen
+Fiscal 601 - General de Ley Personas Morales</td>
+</tr>
+<tr>
+<td class='Center Head10'>Sucursal BODEGA 238, Av. Chapultepec #
+800 - Bodega 238 y 239 Colonia Paraiso, CodigoPostal 67140
+Guadalupe, Nuevo Leon, Mexico</td>
+</tr>
+<tr>
+<td class='Center Head10'>Telefonos 8317-0046, 8317-0047, Correo
+Electronico: tienda238@kykmex.com</td>
+</tr>
+</table>
+</td>
+<td style='width:20%; max-width:20%; min-width: 20%;'>
+<table style='width:100%;'>
+<tr>
+<td class='Center HeadRojo Head12 Negrita' colspan='3'>FACTURA</td>
+</tr>
+<tr class='Center Text10 HeadClaro'>
+<td style='width:50%; max-width:50%; min-width: 50%;'>Tipo
+Comprobante</td>
+<td style='width:20%; max-width:20%; min-width: 20%;'>Serie</td>
+<td style='width:30%; max-width:30%; min-width: 30%;'>Folio</td>
+</tr>
+<tr>
+<td class='HeadBlanco'>INGRESO</td>
+<td class='HeadBlanco'><b>238</b></td>
+<td class='HeadBlanco'><b>65190</b></td>
+</tr>
+<tr class='HeadRojo Center'>
+<td colspan='3'>FECHA EMISI&Atilde;&#147;N</td>
+</tr>
+<tr class='HeadBlanco Negrita'>
+<td colspan='3'><b>2018-01-02T05:49:15</b></td>
+</tr>
+<tr class='Center HeadRojo'>
+<td colspan='3'>LUGAR EXPEDICI&Atilde;&#147;N</td>
+</tr>
+<tr class='HeadBlanco Negrita'>
+<td colspan='3'><b>67140</b></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table style='width:100%;'>
+<tr>
+<td class='Top Center HeadRojo Head12'
+style='width:60%; max-width:60%; min-width: 60%;' colspan='2'>
+INFORMACION DEL CLIENTE</td>
+<td class='Top Center HeadRojo Head12'
+style='width:40%; max-width:40%; min-width: 40%;' colspan='2'>
+INFORMACION ADICIONAL</td>
+</tr>
+<tr>
+<td style='width:20%; max-width:20%; min-width: 20%;'>Nombre del
+Cliente:</td>
+<td style='width:40%; max-width:40%; min-width: 40%;'><b>JUAN RUBEN
+HERNANDEZ GONZALEZ</b></td>
+<td style='width:15%; max-width:15%; min-width: 15%;'>No.
+Certificado:</td>
+<td style='width:25%; max-width:25%; min-width: 25%;'>
+<b>00001000000406336012</b></td>
+</tr>
+<tr style='background-color:#f4f2f2;'>
+<td>R.F.C.:</td>
+<td><b>HEGJ800211C74</b></td>
+<td>Metodo de Pago:</td>
+<td style='font-weight: bold;'><b>null</b></td>
+</tr>
+<tr>
+<td>Uso del CFDI:</td>
+<td><b>null</b></td>
+<td>Forma de Pago:</td>
+<td><b>null</b></td>
+</tr>
+<tr style='background-color:#f4f2f2;'>
+<td>Moneda:</td>
+<td><b>MXN</b></td>
+<td>Condiciones de Pago:</td>
+<td><b>Contado</b></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table style='width:100%;'>
+<tr>
+<td class='Center HeadRojo Head12 Negrita' colspan='14'>
+SECCI&Atilde;&#147;N DE CONCEPTOS DEL COMPROBANTE</td>
+</tr>
+<tr>
+<td class='HeadClaro Head10 Center'
+style='width:6%; max-width:7%; min-width: 7%;' rowspan='2'>
+C&oacute;digo SAT</td>
+<td class='HeadClaro Head10 Center'
+style='width:10%; max-width:8%; min-width: 8%;' rowspan='2'>
+C&oacute;digo Barras</td>
+<td class='HeadClaro Head10 Center'
+style='width:4%; max-width:4%; min-width: 4%;' rowspan='2'>
+Cant.</td>
+<td class='HeadClaro Head10 Center'
+style='width:4%; max-width:4%; min-width: 4%;' rowspan='2'>Clave
+Und.</td>
+<td class='HeadClaro Head10 Center'
+style='width:3%; max-width:3%; min-width: 3%;' rowspan='2'>
+Und.</td>
+<td class='HeadClaro Head10 Center'
+style='width:20%; max-width:20%; min-width: 20%;' rowspan='2'>
+Descripcion</td>
+<td class='HeadClaro Head10 Center'
+style='width:6%; max-width:7%;min-width: 7%;' rowspan='2'>Valor
+Unitario</td>
+<td class='HeadClaro Head10 Center'
+style='width:5%; max-width:5%; min-width: 5%;' rowspan='2'>
+Dcto.</td>
+<td class='HeadClaro Head10 Center'
+style='width:7%; max-width:7%; min-width: 7%;' rowspan='2'>
+Importe</td>
+<td class='HeadClaro Head10 Center' colspan='5'>Impuestos</td>
+</tr>
+<tr class='HeadClaro Head10 Center'>
+<td class='HeadClaro Head10 Center'
+style='width:7%; max-width:7%; min-width: 7%;'>Base</td>
+<td class='HeadClaro Head10 Center'
+style='width:6%; max-width:6%; min-width: 6%;'>Impuesto</td>
+<td class='HeadClaro Head10 Center'
+style='width:5%; max-width:5%; min-width: 5%;'>Tipo Factor</td>
+<td class='HeadClaro Head10 Center'
+style='width:5%; max-width:5%; min-width: 5%;'>Tasa/ Cuota</td>
+<td class='HeadClaro Head10 Center'
+style='width:7%; max-width:7%; min-width: 7%;'>Importe</td>
+</tr>
+<tr class='LineBottom' style='background-color:#FFFFFF;'>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important;'>50171830</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important;'>738545060059</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:right;'>1</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:center;'>
+H87</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:center;'>
+Pz</td>
+<td class='Text9' style='word-break: break-all !important;'>Aderezo
+de Mayonesa Star value 3.52kg</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:right;'>
+$47.00</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:center;'>-</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:right;'>
+$47.00</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:right;'>
+$47.00</td>
+<td rowspan='1' class='LineBottom Center Text9'>002</td>
+<td rowspan='1' class='LineBottom Center Text9'>Tasa</td>
+<td rowspan='1' class='LineBottom Center Text9'>0.00</td>
+<td rowspan='1' class='LineBottom Right Text9'>0.00</td>
+</tr>
+<tr class='LineBottom' style='background-color:#f4f2f2;'>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important;'>50111500</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important;'>820</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:right;'>
+2.844</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:center;'>
+KGM</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:center;'>
+Kg</td>
+<td class='Text9' style='word-break: break-all !important;'>Pollo
+Hamburguesa De pechuga Kg</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:right;'>
+$40.70</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:center;'>-</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:right;'>
+$115.75</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:right;'>
+$115.75</td>
+<td rowspan='1' class='LineBottom Center Text9'>002</td>
+<td rowspan='1' class='LineBottom Center Text9'>Tasa</td>
+<td rowspan='1' class='LineBottom Center Text9'>0.00</td>
+<td rowspan='1' class='LineBottom Right Text9'>0.00</td>
+</tr>
+<tr class='LineBottom' style='background-color:#FFFFFF;'>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important;'>50131800</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important;'>7501639334960</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:right;'>1</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:center;'>
+H87</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:center;'>
+Pz</td>
+<td class='Text9' style='word-break: break-all !important;'>Queso
+Americano Reb.ind. Biolac 1.82 Kg</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:right;'>
+$63.70</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:center;'>-</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:right;'>
+$63.70</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:right;'>
+$63.70</td>
+<td rowspan='1' class='LineBottom Center Text9'>002</td>
+<td rowspan='1' class='LineBottom Center Text9'>Tasa</td>
+<td rowspan='1' class='LineBottom Center Text9'>0.00</td>
+<td rowspan='1' class='LineBottom Right Text9'>0.00</td>
+</tr>
+<tr class='LineBottom' style='background-color:#f4f2f2;'>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important;'>50131800</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important;'>891</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:right;'>
+1.966</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:center;'>
+KGM</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:center;'>
+Kg</td>
+<td class='Text9' style='word-break: break-all !important;'>Queso
+Contry Chester (Kg)</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:right;'>
+$52.90</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:center;'>-</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:right;'>
+$104.00</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:right;'>
+$104.00</td>
+<td rowspan='1' class='LineBottom Center Text9'>002</td>
+<td rowspan='1' class='LineBottom Center Text9'>Tasa</td>
+<td rowspan='1' class='LineBottom Center Text9'>0.00</td>
+<td rowspan='1' class='LineBottom Right Text9'>0.00</td>
+</tr>
+<tr class='LineBottom' style='background-color:#FFFFFF;'>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important;'>50171552</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important;'>801842018501</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:right;'>1</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:center;'>
+H87</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:center;'>
+Pz</td>
+<td class='Text9' style='word-break: break-all !important;'>Sal
+sabor mantequilla Rop 1 Kg</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:right;'>
+$48.02</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:center;'>-</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:right;'>
+$48.02</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:right;'>
+$48.02</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:center;'>
+002</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:center;'>
+Tasa</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:center;'>
+0.160000</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:right;'>
+$7.68</td>
+</tr>
+<tr class='LineBottom' style='background-color:#f4f2f2;'>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important;'>50171832</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important;'>0202060008167</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:right;'>1</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:center;'>
+H87</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:center;'>
+Pz</td>
+<td class='Text9' style='word-break: break-all !important;'>Salsa
+Catsup Zafran 204 Sobres</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:right;'>
+$43.60</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:center;'>-</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:right;'>
+$43.60</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:right;'>
+$43.60</td>
+<td rowspan='1' class='LineBottom Center Text9'>002</td>
+<td rowspan='1' class='LineBottom Center Text9'>Tasa</td>
+<td rowspan='1' class='LineBottom Center Text9'>0.00</td>
+<td rowspan='1' class='LineBottom Right Text9'>0.00</td>
+</tr>
+<tr class='top'>
+<td colspan='9' class='Top HeadClaro Head12'>(CUATROCIENTOS
+VEINTINUEVE PESOS 75/100 M.N.)</td>
+<td colspan='3' class='LineBottom Top Right HeadClaro Text10'>
+Subtotal:</td>
+<td colspan='2' class='LineBottom Top Right Negrita Text10'>
+$422.07</td>
+</tr>
+<tr>
+<td colspan='2' class='Text10'>Observaciones</td>
+<td colspan='7' class='Text10 Negrita'>070216547</td>
+<td colspan='3' class='LineBottom Top Right HeadClaro Text10'>
+Impuestos Trasladados:</td>
+<td colspan='2' class='LineBottom Top Right Negrita Text10'>
+$7.68</td>
+</tr>
+<tr>
+<td colspan='9' class='Negrita Text10'></td>
+<td colspan='3' class='LineBottom Top Right HeadClaro Text10'>
+Impuestos Retenidos:</td>
+<td colspan='2' class='LineBottom Top Right Negrita Text10'>-</td>
+</tr>
+<tr>
+<td colspan='9' class='Negrita Text10'></td>
+<td colspan='3' class='LineBottom Top Right HeadClaro Text10'>Total
+Descuentos:</td>
+<td colspan='2' class='LineBottom Top Right Negrita Text10'>-</td>
+</tr>
+<tr>
+<td colspan='9' class='Negrita Text10'></td>
+<td colspan='3' class='LineBottom Top Right HeadClaro Text10'>
+Total:</td>
+<td colspan='2' class='LineBottom Top Right Negrita Text10'>
+$429.75</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table
+style='table-layout:fixed; height:2in; min-height:2in; max-height:2in'>
+<tr>
+<td class='Center HeadRojo Head12 Negrita' colspan='4'>
+INFORMACI&Atilde;&#147;N DEL TIMBRE FISCAL DIGITAL</td>
+</tr>
+<tr>
+<td class='Center HeadClaro Negrita'
+style='width:20%; max-width:20%; min-width:20%;'>R.F.C. del
+PAC</td>
+<td class='Center HeadClaro Negrita'
+style='width:26.66%; max-width:26.66%; min-width:26.66%;'>Folio
+Fiscal</td>
+<td class='Center HeadClaro Negrita'
+style='width:26.66%; max-width:26.66%; min-width:26.66%;'>No.
+Certificado Digital SAT</td>
+<td class='Center HeadClaro Negrita'
+style='width:26.66%; max-width:26.66%; min-width:26.66%;'>Fecha y
+Hora de Certificaci&oacute;n</td>
+</tr>
+<tr class='Top Center Gris'>
+<td style='width:20%; max-width:20%; min-width:20%;'>
+DIA031002LZ2</td>
+<td style='width:26.66%; max-width:26.66%; min-width:26.66%;'>
+05b588b8-0d4c-4562-9c43-a8544f9f5737</td>
+<td style='width:26.66%; max-width:26.66%; min-width:26.66%;'>
+00001000000404614920</td>
+<td style='width:26.66%; max-width:26.66%; min-width:26.66%;'>
+2018-01-02T06:05:34</td>
+</tr>
+<tr>
+<td colspan='4'></td>
+</tr>
+<tr>
+<td rowspan='141'><img
+src='c:/fuentes/HLCore/KYK/SUCURSAL7/20180103/23865190-QR.png'
+style='width:180px; max-width:180px; min-width:180px; height:180px;' /></td>
+<td class='Center HeadClaro Negrita'
+style='word-break: break-all !important; width:26.66%; max-width:26.66%; min-width:26.66%;'>Sello
+Digital del Emisor:</td>
+<td class='Center HeadClaro Negrita'
+style='word-break: break-all !important; width:26.66%; max-width:26.66%; min-width:26.66%;'>Sello
+Digital del SAT:</td>
+<td class='Center HeadClaro Negrita'
+style='word-break: break-all !important; width:26.66%; max-width:26.66%; min-width:26.66%;'>Cadena
+Original del Complemento de certificaci&oacute;n del SAT:</td>
+</tr>
+<tr class='Top Gris'>
+<td rowspan="1" style='word-break: break-all !important;'>
+x4j7gALoTj7eq58o74vKmCcXpcQl0Ep</td>
+<td rowspan="1" style='word-break: break-all !important;'>
+VrgrsjtLfB0y5lp22qtMwA/WfevGQgf</td>
+<td rowspan="1" style='word-break: break-all !important;'>
+||1.1|05b588b8-0d4c-4562-9c43-a</td>
+</tr>
+<tr class='Top Gris'>
+<td rowspan="1" style='word-break: break-all !important;'>
+3ppqAvWCnlXS1GUy/KosbdfNy7b7RX2</td>
+<td rowspan="1" style='word-break: break-all !important;'>
+9BKd+M/mOVi0TW+0CsEtTyShVKaWX/9</td>
+<td rowspan="1" style='word-break: break-all !important;'>
+8544f9f5737|2018-01-02T06:05:34</td>
+</tr>
+<tr class='Top Gris'>
+<td rowspan="1" style='word-break: break-all !important;'>
+l36VrskbVoDVzxTc2VfLeuR4IfcWEjw</td>
+<td rowspan="1" style='word-break: break-all !important;'>
+Z5eZElmQg2uL/+fURG0+I0oAUxecVuQ</td>
+<td rowspan="1" style='word-break: break-all !important;'>
+|x4j7gALoTj7eq58o74vKmCcXpcQl0E</td>
+</tr>
+<tr class='Top Gris'>
+<td rowspan="1" style='word-break: break-all !important;'>
+HbrKGg0kyiDEHNr6PfxJK6VCpPk1JC2</td>
+<td rowspan="1" style='word-break: break-all !important;'>
+nc4sd5aMkBjBLdV0tcLLN0Xax+n89/Z</td>
+<td rowspan="1" style='word-break: break-all !important;'>
+p3ppqAvWCnlXS1GUy/KosbdfNy7b7RX</td>
+</tr>
+<tr class='Top Gris'>
+<td rowspan="1" style='word-break: break-all !important;'>
+3T+s4dC1YkzlmIySYDs3doEuzvdWoHu</td>
+<td rowspan="1" style='word-break: break-all !important;'>
+mODsdWxue0/ar9EI9KnMYGznqcx+qjw</td>
+<td rowspan="1" style='word-break: break-all !important;'>
+2l36VrskbVoDVzxTc2VfLeuR4IfcWEj</td>
+</tr>
+<tr class='Top Gris'>
+<td rowspan="1" style='word-break: break-all !important;'>
+YIUTmB2cJq7m6ZuCif7GCUD2YB8KfJU</td>
+<td rowspan="1" style='word-break: break-all !important;'>
+04Y7Tgd6k6gVfR5kh2UDvGP1lnCNmPp</td>
+<td rowspan="1" style='word-break: break-all !important;'>
+wHbrKGg0kyiDEHNr6PfxJK6VCpPk1JC</td>
+</tr>
+<tr class='Top Gris'>
+<td rowspan="1" style='word-break: break-all !important;'>
+lWQ1ULkoEmZCct3GQKxQ6UQw2DFuSon</td>
+<td rowspan="1" style='word-break: break-all !important;'>
+lCq+1T4g66ROY6Q+gfLONnO5fZJxT9l</td>
+<td rowspan="1" style='word-break: break-all !important;'>
+23T+s4dC1YkzlmIySYDs3doEuzvdWoH</td>
+</tr>
+<tr class='Top Gris'>
+<td rowspan="1" style='word-break: break-all !important;'>
+WkGl0LjjJVnBknPBHXscJNuoMcqcGYY</td>
+<td rowspan="1" style='word-break: break-all !important;'>
+ajsMbQbAxV7gvWmBnJCHZV/4y3nQkra</td>
+<td rowspan="1" style='word-break: break-all !important;'>
+uYIUTmB2cJq7m6ZuCif7GCUD2YB8KfJ</td>
+</tr>
+<tr class='Top Gris'>
+<td rowspan="1" style='word-break: break-all !important;'>
+IQHknE6C+i6vwegryxfWOnYdd2MhdMk</td>
+<td rowspan="1" style='word-break: break-all !important;'>
+K6rx8gkvl2VVDk4MCR8hUnQa1D7QHvy</td>
+<td rowspan="1" style='word-break: break-all !important;'>
+UlWQ1ULkoEmZCct3GQKxQ6UQw2DFuSo</td>
+</tr>
+<tr class='Top Gris'>
+<td rowspan="1" style='word-break: break-all !important;'>
+8LAv2gf9j9GfYEIF1BWMOPkJ07/wMva</td>
+<td rowspan="1" style='word-break: break-all !important;'>
+SFeB8LZ0dsMUp/6ix95CKZC10ydw+Nn</td>
+<td rowspan="1" style='word-break: break-all !important;'>
+nWkGl0LjjJVnBknPBHXscJNuoMcqcGY</td>
+</tr>
+<tr class='Top Gris'>
+<td rowspan="1" style='word-break: break-all !important;'>
+6fajqq7xaKPCbFn7nQMy3Qv13CTzWRg</td>
+<td rowspan="1" style='word-break: break-all !important;'>
+KMteF5MiLdmdrd4buvCwXuO77EwUktw</td>
+<td rowspan="1" style='word-break: break-all !important;'>
+YIQHknE6C+i6vwegryxfWOnYdd2MhdM</td>
+</tr>
+<tr class='Top Gris'>
+<td rowspan="3" style='word-break: break-all !important;'>w==</td>
+<td rowspan="3" style='word-break: break-all !important;'>Q==</td>
+<td rowspan="1" style='word-break: break-all !important;'>
+k8LAv2gf9j9GfYEIF1BWMOPkJ07/wMv</td>
+</tr>
+<tr class='Top Gris'>
+<td rowspan="1" style='word-break: break-all !important;'>
+a6fajqq7xaKPCbFn7nQMy3Qv13CTzWR</td>
+</tr>
+<tr class='Top Gris'>
+<td rowspan="1" style='word-break: break-all !important;'>
+gw==|00001000000404614920||</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style='font-size: xx-small;'>
+<td class='Center HeadBlanco'>Este documento es una representacion
+impresa de un CFDI ver. 3.3</td>
+</tr>
+</table>
+</body>
+</html>

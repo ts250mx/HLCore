@@ -1,0 +1,659 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="generator"
+content="HTML Tidy for Java (vers. 2009-12-01), see jtidy.sourceforge.net" />
+<meta http-equiv='Content-Type'
+content='text/html; charset=iso-8859-1' />
+<title>factura</title>
+<style type='text/css'>
+/*<![CDATA[*/
+ 
+body table{ 
+font: 10px arial, sans-serif; 
+padding: 0px; 
+} 
+@page { 
+margin-left: 0.2in; 
+margin-right: 0.2in; 
+size: 8.5in 11.1in;
+} 
+.Head12{ 
+font: 12px arial, sans-serif; 
+font-weight: bold;  
+word-break: normal; 
+size: letter; 
+} 
+.Head8{ 
+font: 8px arial, sans-serif; 
+font-weight: bold; 
+word-break: normal; 
+} 
+.Head10{ 
+font: 10px arial, sans-serif; 
+font-weight: bold;  
+word-break: normal; 
+} 
+.Text8{ 
+font: 8px arial, sans-serif; 
+} 
+.Text10{ 
+font: 10px arial, sans-serif; 
+} 
+.Text9{ 
+font: 10px arial, sans-serif; 
+} 
+.Head18{ 
+font: 18px arial, sans-serif; 
+font-weight: bold;  
+} 
+.divCadenas { 
+width: 200px; 
+background-color: white; 
+word-break: break-all; vertical-align: text-top; 
+} 
+.LineBottom { 
+border-bottom: 1px solid #f4f2f2; 
+padding: 0px; 
+} 
+.HeadRojo { 
+background-color: #ffdee7; 
+color: white; 
+word-break: break-word; 
+font-weight: bold; 
+text-align: center; 
+vertical-align: text-bottom; 
+} 
+.HeadBlanco { 
+background-color: white; 
+color: black; 
+word-break: break-word; 
+font-weight: bold;  
+text-align:center; 
+vertical-align: text-bottom; 
+} 
+.Gris { 
+color: #3f3f3f; 
+word-break: break-all; 
+text-align: center; 
+vertical-align: text-top; 
+} 
+.HeadClaro { 
+background-color:#80c4c5; 
+color: black; 
+word-break: break-word; 
+} 
+.Center { 
+text-align: center; 
+vertical-align: middle; 
+} 
+.Right { 
+text-align: right; 
+} 
+.Negrita { 
+font-weight: bold;  
+} 
+.Top { 
+vertical-align: text-top; 
+} 
+.Bottom { 
+vertical-align: text-bottom; 
+} 
+/*]]>*/
+</style>
+</head>
+<body>
+<table style='width: 100%; height: 10in;'>
+<tr>
+<td>
+<table style='width:100%;'>
+<tr>
+<td style='width:20%; max-width:20%; min-width:20%;'><img
+src='C:/fuentes/hlcore/nexus///logo.png'
+style='width:180px; max-width:180px; min-width:180px;' /></td>
+<td style='width:60%; max-width:60%; min-width:60%;'>
+<table style='width:100%;'>
+<tr>
+<td class='Center Head18'>NEXUS MA SA DE CV</td>
+</tr>
+<tr>
+<td class='Center Head10 Negrita'>Sucursal Monterrey,R.F.C.
+NMA140606BZ4</td>
+</tr>
+<tr>
+<td class='Center Head10'>Regimen Fiscal 601 - General de Ley
+Personas Morales</td>
+</tr>
+<tr>
+<td class='Center Head8'>Av. Revolucion # 705 - Colonia Jardin
+Espa&ntilde;ol, CodigoPostal 64820 Monterrey, Nuevo Leon,
+Mexico</td>
+</tr>
+<tr>
+<td class='Center Head8'>Telefonos 81149801 Y 02, Correo
+Electronico ts250mx@gmail.com</td>
+</tr>
+</table>
+</td>
+<td style='width:20%; max-width:20%; min-width: 20%;'>
+<table style='width:100%;'>
+<tr>
+<td class='Center HeadRojo Head12 Negrita' colspan='3'>FACTURA</td>
+</tr>
+<tr class='Center Text10 HeadClaro'>
+<td style='width:50%; max-width:50%; min-width: 50%;'>Tipo
+Comprobante</td>
+<td style='width:20%; max-width:20%; min-width: 20%;'>Serie</td>
+<td style='width:30%; max-width:30%; min-width: 30%;'>Folio</td>
+</tr>
+<tr>
+<td class='HeadBlanco'>INGRESO</td>
+<td class='HeadBlanco'><b>NX</b></td>
+<td class='HeadBlanco'><b>667</b></td>
+</tr>
+<tr class='HeadRojo Center'>
+<td colspan='3'>FECHA EMISI&Oacute;N</td>
+</tr>
+<tr class='HeadBlanco Negrita'>
+<td colspan='3'><b>2018-01-09T23:22:13</b></td>
+</tr>
+<tr class='Center HeadRojo'>
+<td colspan='3'>LUGAR EXPEDICI&Oacute;N</td>
+</tr>
+<tr class='HeadBlanco Negrita'>
+<td colspan='3'><b>64820</b></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table style='width:100%;'>
+<tr>
+<td class='Top Center HeadRojo Head12'
+style='width:60%; max-width:60%; min-width: 60%;' colspan='2'>
+INFORMACION DEL CLIENTE</td>
+<td class='Top Center HeadRojo Head12'
+style='width:40%; max-width:40%; min-width: 40%;' colspan='2'>
+INFORMACION ADICIONAL</td>
+</tr>
+<tr>
+<td style='width:20%; max-width:20%; min-width: 20%;'>Nombre del
+Cliente:</td>
+<td style='width:40%; max-width:40%; min-width: 40%;'><b>PUBLICO
+GENERAL</b></td>
+<td style='width:15%; max-width:15%; min-width: 15%;'>No.
+Certificado:</td>
+<td style='width:25%; max-width:25%; min-width: 25%;'>
+<b>00001000000402763175</b></td>
+</tr>
+<tr style='background-color:#f4f2f2;'>
+<td>R.F.C.:</td>
+<td><b>XAXX010101000</b></td>
+<td>Metodo de Pago:</td>
+<td style='font-weight: bold;'><b>01-Efectivo</b></td>
+</tr>
+<tr>
+<td>Uso del CFDI:</td>
+<td><b>G01-Adquisici&Atilde;&#131;&Acirc;&sup3;n de
+Mercancias</b></td>
+<td>Forma de Pago:</td>
+<td><b>PUE-Pago en una sola
+Exhibici&Atilde;&#131;&Acirc;&sup3;n</b></td>
+</tr>
+<tr style='background-color:#f4f2f2;'>
+<td>Moneda:</td>
+<td><b>MXN</b></td>
+<td>Condiciones de Pago:</td>
+<td><b>Contado</b></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table style='width:100%;'>
+<tr>
+<td class='Center HeadRojo Head12 Negrita' colspan='14'>
+SECCI&Oacute;N DE CONCEPTOS DEL COMPROBANTE</td>
+</tr>
+<tr>
+<td class='HeadClaro Head10 Center'
+style='width:6%; max-width:7%; min-width: 7%;' rowspan='2'>
+C&oacute;digo SAT</td>
+<td class='HeadClaro Head10 Center'
+style='width:10%; max-width:8%; min-width: 8%;' rowspan='2'>
+C&oacute;digo Barras</td>
+<td class='HeadClaro Head10 Center'
+style='width:4%; max-width:4%; min-width: 4%;' rowspan='2'>
+Cant.</td>
+<td class='HeadClaro Head10 Center'
+style='width:4%; max-width:4%; min-width: 4%;' rowspan='2'>Clave
+Und.</td>
+<td class='HeadClaro Head10 Center'
+style='width:3%; max-width:3%; min-width: 3%;' rowspan='2'>
+Und.</td>
+<td class='HeadClaro Head10 Center'
+style='width:20%; max-width:20%; min-width: 20%;' rowspan='2'>
+Descripcion</td>
+<td class='HeadClaro Head10 Center'
+style='width:6%; max-width:7%;min-width: 7%;' rowspan='2'>Valor
+Unitario</td>
+<td class='HeadClaro Head10 Center'
+style='width:5%; max-width:5%; min-width: 5%;' rowspan='2'>
+Dcto.</td>
+<td class='HeadClaro Head10 Center'
+style='width:7%; max-width:7%; min-width: 7%;' rowspan='2'>
+Importe</td>
+<td class='HeadClaro Head10 Center' colspan='5'>Impuestos</td>
+</tr>
+<tr class='HeadClaro Head10 Center'>
+<td class='HeadClaro Head10 Center'
+style='width:7%; max-width:7%; min-width: 7%;'>Base</td>
+<td class='HeadClaro Head10 Center'
+style='width:6%; max-width:6%; min-width: 6%;'>Impuesto</td>
+<td class='HeadClaro Head10 Center'
+style='width:5%; max-width:5%; min-width: 5%;'>Tipo Factor</td>
+<td class='HeadClaro Head10 Center'
+style='width:5%; max-width:5%; min-width: 5%;'>Tasa/ Cuota</td>
+<td class='HeadClaro Head10 Center'
+style='width:7%; max-width:7%; min-width: 7%;'>Importe</td>
+</tr>
+<tr class='LineBottom' style='background-color:#FFFFFF;'>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important;'>49221500</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important;'>ENTBG</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:right;'>1</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:center;'>
+H87</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:center;'>
+PZS</td>
+<td class='Text9' style='word-break: break-all !important;'>
+EMPEINERA NEXUS TKD BLANCO G</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:right;'>
+$125.52</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:center;'>-</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:right;'>
+$125.52</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:right;'>
+$125.52</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:center;'>
+002</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:center;'>
+Tasa</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:center;'>
+0.160000</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:right;'>
+$20.08</td>
+</tr>
+<tr class='LineBottom' style='background-color:#f4f2f2;'>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important;'>49221500</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important;'>ENTBM</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:right;'>2</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:center;'>
+H87</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:center;'>
+PZS</td>
+<td class='Text9' style='word-break: break-all !important;'>
+EMPEINERA NEXUS TKD BLANCO M</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:right;'>
+$125.52</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:center;'>-</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:right;'>
+$251.03</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:right;'>
+$251.03</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:center;'>
+002</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:center;'>
+Tasa</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:center;'>
+0.160000</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:right;'>
+$40.17</td>
+</tr>
+<tr class='LineBottom' style='background-color:#FFFFFF;'>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important;'>78141501</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important;'>FFA</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:right;'>1</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:center;'>
+H87</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:center;'>
+PZS</td>
+<td class='Text9' style='word-break: break-all !important;'>FLETE
+FLECHA AMARILLA NORMAL</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:right;'>
+$208.10</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:center;'>-</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:right;'>
+$208.10</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:right;'>
+$208.10</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:center;'>
+002</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:center;'>
+Tasa</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:center;'>
+0.160000</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:right;'>
+$33.30</td>
+</tr>
+<tr class='LineBottom' style='background-color:#f4f2f2;'>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important;'>53102504</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important;'>GNTBM</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:right;'>2</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:center;'>
+H87</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:center;'>
+PZS</td>
+<td class='Text9' style='word-break: break-all !important;'>GUANTE
+NEXUS TKD BLANCO M</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:right;'>
+$125.52</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:center;'>-</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:right;'>
+$251.03</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:right;'>
+$251.03</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:center;'>
+002</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:center;'>
+Tasa</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:center;'>
+0.160000</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:right;'>
+$40.17</td>
+</tr>
+<tr class='LineBottom' style='background-color:#FFFFFF;'>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important;'>53102504</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important;'>GNTBXG</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:right;'>1</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:center;'>
+H87</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:center;'>
+PZS</td>
+<td class='Text9' style='word-break: break-all !important;'>GUANTE
+NEXUS TKD BLANCO XG</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:right;'>
+$125.52</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:center;'>-</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:right;'>
+$125.52</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:right;'>
+$125.52</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:center;'>
+002</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:center;'>
+Tasa</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:center;'>
+0.160000</td>
+<td rowspan='1' class='LineBottom Text9'
+style='word-break: break-all !important; text-align:right;'>
+$20.08</td>
+</tr>
+<tr class='top'>
+<td colspan='9' class='Top HeadClaro Head12'>(UN MIL CIENTO QUINCE
+PESOS 00/100 M.N.)</td>
+<td colspan='3' class='LineBottom Top Right HeadClaro Text10'>
+Subtotal:</td>
+<td colspan='2' class='LineBottom Top Right Negrita Text10'>
+$961.20</td>
+</tr>
+<tr>
+<td colspan='2' class='Text10'>Observaciones:</td>
+<td colspan='7' class='Text10 Negrita'></td>
+<td colspan='3' class='LineBottom Top Right HeadClaro Text10'>
+Impuestos Trasladados:</td>
+<td colspan='2' class='LineBottom Top Right Negrita Text10'>
+$153.80</td>
+</tr>
+<tr>
+<td colspan='9' class='Negrita Text10'></td>
+<td colspan='3' class='LineBottom Top Right HeadClaro Text10'>
+Impuestos Retenidos:</td>
+<td colspan='2' class='LineBottom Top Right Negrita Text10'>-</td>
+</tr>
+<tr>
+<td colspan='9' class='Negrita Text10'></td>
+<td colspan='3' class='LineBottom Top Right HeadClaro Text10'>Total
+Descuentos:</td>
+<td colspan='2' class='LineBottom Top Right Negrita Text10'>-</td>
+</tr>
+<tr>
+<td colspan='9' class='Negrita Text10'></td>
+<td colspan='3' class='LineBottom Top Right HeadClaro Text10'>
+Total:</td>
+<td colspan='2' class='LineBottom Top Right Negrita Text10'>
+$1,115.00</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table
+style='table-layout:fixed; height:2in; min-height:2in; max-height:2in'>
+<tr>
+<td class='Center HeadRojo Head12 Negrita' colspan='4'>
+INFORMACI&Oacute;N DEL TIMBRE FISCAL DIGITAL</td>
+</tr>
+<tr>
+<td class='Center HeadClaro Negrita'
+style='width:20%; max-width:20%; min-width:20%;'>R.F.C. del
+PAC</td>
+<td class='Center HeadClaro Negrita'
+style='width:26.66%; max-width:26.66%; min-width:26.66%;'>Folio
+Fiscal</td>
+<td class='Center HeadClaro Negrita'
+style='width:26.66%; max-width:26.66%; min-width:26.66%;'>No.
+Certificado Digital SAT</td>
+<td class='Center HeadClaro Negrita'
+style='width:26.66%; max-width:26.66%; min-width:26.66%;'>Fecha y
+Hora de Certificaci&oacute;n</td>
+</tr>
+<tr class='Top Center Gris'>
+<td style='width:20%; max-width:20%; min-width:20%;'>
+FEL100622S88</td>
+<td style='width:26.66%; max-width:26.66%; min-width:26.66%;'>
+0C3E30D8-1082-4865-AD73-B417FA4C8F31</td>
+<td style='width:26.66%; max-width:26.66%; min-width:26.66%;'>
+00001000000408441752</td>
+<td style='width:26.66%; max-width:26.66%; min-width:26.66%;'>
+2018-01-09T23:22:02</td>
+</tr>
+<tr>
+<td colspan='4'></td>
+</tr>
+<tr>
+<td rowspan='141'><img
+src='c:/fuentes/hlcore/nexus///nma140606bz4//facturas//monterrey//20180109//NX667-QR.png'
+ style='width:180px; max-width:180px; min-width:180px; height:180px;' /></td>
+<td class='Center HeadClaro Negrita'
+style='word-break: break-all !important; width:26.66%; max-width:26.66%; min-width:26.66%;'>Sello
+Digital del Emisor:</td>
+<td class='Center HeadClaro Negrita'
+style='word-break: break-all !important; width:26.66%; max-width:26.66%; min-width:26.66%;'>Sello
+Digital del SAT:</td>
+<td class='Center HeadClaro Negrita'
+style='word-break: break-all !important; width:26.66%; max-width:26.66%; min-width:26.66%;'>Cadena
+Original del Complemento de certificaci&oacute;n del SAT:</td>
+</tr>
+<tr class='Top Gris'>
+<td rowspan="1" style='word-break: break-all !important;'>
+lMrSQJVR8HfWNIBcYAG/ylRt4cfgKk0</td>
+<td rowspan="1" style='word-break: break-all !important;'>
+bvGkBOEvdo72JwFSXqs807QvEgHIx4Q</td>
+<td rowspan="1" style='word-break: break-all !important;'>
+||1.1|0C3E30D8-1082-4865-AD73-B</td>
+</tr>
+<tr class='Top Gris'>
+<td rowspan="1" style='word-break: break-all !important;'>
+kY44gVugh49Af/sK59ZfDu4C3vFnf0q</td>
+<td rowspan="1" style='word-break: break-all !important;'>
+Cos2+zpklHvJ67gX7gjxjygVt8qLmoQ</td>
+<td rowspan="1" style='word-break: break-all !important;'>
+417FA4C8F31|2018-01-09T23:22:02</td>
+</tr>
+<tr class='Top Gris'>
+<td rowspan="1" style='word-break: break-all !important;'>
+LPRRNxmaeDIp/Y2Btl69F+5KtHOk6ns</td>
+<td rowspan="1" style='word-break: break-all !important;'>
+1wPwww7mLn7MBqrxqd1x1SpqksG3syB</td>
+<td rowspan="1" style='word-break: break-all !important;'>
+|lMrSQJVR8HfWNIBcYAG/ylRt4cfgKk</td>
+</tr>
+<tr class='Top Gris'>
+<td rowspan="1" style='word-break: break-all !important;'>
+bH4/rA5tMakX3/0KpatSXWPvcwQQV9c</td>
+<td rowspan="1" style='word-break: break-all !important;'>
+qmCjKkAnOID7dYQS6b5+BrqRXg7Q3LP</td>
+<td rowspan="1" style='word-break: break-all !important;'>
+0kY44gVugh49Af/sK59ZfDu4C3vFnf0</td>
+</tr>
+<tr class='Top Gris'>
+<td rowspan="1" style='word-break: break-all !important;'>
+O6udCwFGwbQvsX1OJmH+CydJMG0nFPH</td>
+<td rowspan="1" style='word-break: break-all !important;'>
+wDRrVdoF45lKoch9id755M6+i/77c/n</td>
+<td rowspan="1" style='word-break: break-all !important;'>
+qLPRRNxmaeDIp/Y2Btl69F+5KtHOk6n</td>
+</tr>
+<tr class='Top Gris'>
+<td rowspan="1" style='word-break: break-all !important;'>
+y+CfiqL4lXR5d05pLSsl/l2YOor0tvL</td>
+<td rowspan="1" style='word-break: break-all !important;'>
+mlD4ZOQOa2gz5GpHMHhor7gvGoenTtj</td>
+<td rowspan="1" style='word-break: break-all !important;'>
+sbH4/rA5tMakX3/0KpatSXWPvcwQQV9</td>
+</tr>
+<tr class='Top Gris'>
+<td rowspan="1" style='word-break: break-all !important;'>
+2OJdQWFjesXpmNSBZhbFwiaPt4c821s</td>
+<td rowspan="1" style='word-break: break-all !important;'>
+TRNx0RTX9hqdfovstUMlA1QNgF1efm+</td>
+<td rowspan="1" style='word-break: break-all !important;'>
+cO6udCwFGwbQvsX1OJmH+CydJMG0nFP</td>
+</tr>
+<tr class='Top Gris'>
+<td rowspan="1" style='word-break: break-all !important;'>
+YSijonshA5r1gGdtyfQF24LG5HPi2A+</td>
+<td rowspan="1" style='word-break: break-all !important;'>
+A53hRbvX3eEY9WK9OidZca5nopjpxgY</td>
+<td rowspan="1" style='word-break: break-all !important;'>
+Hy+CfiqL4lXR5d05pLSsl/l2YOor0tv</td>
+</tr>
+<tr class='Top Gris'>
+<td rowspan="1" style='word-break: break-all !important;'>
+qOrpqGMsfpFM9RCAv/m9OSCfZi/g0cV</td>
+<td rowspan="1" style='word-break: break-all !important;'>
+EV7JwOidSFL7vVIt8HymqHhANynPtLq</td>
+<td rowspan="1" style='word-break: break-all !important;'>
+L2OJdQWFjesXpmNSBZhbFwiaPt4c821</td>
+</tr>
+<tr class='Top Gris'>
+<td rowspan="1" style='word-break: break-all !important;'>
+hpIqnX9O888JfJujlYAy6PTtjmclWnZ</td>
+<td rowspan="1" style='word-break: break-all !important;'>
+xAYLs7T7zL3fLlqOlsR1MJQMI5csGw6</td>
+<td rowspan="1" style='word-break: break-all !important;'>
+sYSijonshA5r1gGdtyfQF24LG5HPi2A</td>
+</tr>
+<tr class='Top Gris'>
+<td rowspan="1" style='word-break: break-all !important;'>
+zlfuhoiraQ7Xgy+emIsX1DtXP3f6I55</td>
+<td rowspan="1" style='word-break: break-all !important;'>
+PpEwPVr6WaDJf984XzcomiMvAU2MEeP</td>
+<td rowspan="1" style='word-break: break-all !important;'>
++qOrpqGMsfpFM9RCAv/m9OSCfZi/g0c</td>
+</tr>
+<tr class='Top Gris'>
+<td rowspan="3" style='word-break: break-all !important;'>A==</td>
+<td rowspan="3" style='word-break: break-all !important;'>A==</td>
+<td rowspan="1" style='word-break: break-all !important;'>
+VhpIqnX9O888JfJujlYAy6PTtjmclWn</td>
+</tr>
+<tr class='Top Gris'>
+<td rowspan="1" style='word-break: break-all !important;'>
+ZzlfuhoiraQ7Xgy+emIsX1DtXP3f6I5</td>
+</tr>
+<tr class='Top Gris'>
+<td rowspan="1" style='word-break: break-all !important;'>
+5A==|00001000000408441752||</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style='font-size: xx-small;'>
+<td class='Center HeadBlanco'>Este documento es una representacion
+impresa de un CFDI ver. 3.3</td>
+</tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd" Version="3.3" Serie="NX" Folio="667" Fecha="2018-01-09T23:22:13" FormaPago="01" SubTotal="961.20" Moneda="MXN" Total="1115.00" TipoDeComprobante="I" MetodoPago="PUE" LugarExpedicion="64820" NoCertificado="00001000000402763175" Certificado="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" Sello="lMrSQJVR8HfWNIBcYAG/ylRt4cfgKk0kY44gVugh49Af/sK59ZfDu4C3vFnf0qLPRRNxmaeDIp/Y2Btl69F+5KtHOk6nsbH4/rA5tMakX3/0KpatSXWPvcwQQV9cO6udCwFGwbQvsX1OJmH+CydJMG0nFPHy+CfiqL4lXR5d05pLSsl/l2YOor0tvL2OJdQWFjesXpmNSBZhbFwiaPt4c821sYSijonshA5r1gGdtyfQF24LG5HPi2A+qOrpqGMsfpFM9RCAv/m9OSCfZi/g0cVhpIqnX9O888JfJujlYAy6PTtjmclWnZzlfuhoiraQ7Xgy+emIsX1DtXP3f6I55A==">
+  <cfdi:Emisor Rfc="NMA140606BZ4" Nombre="NEXUS MA SA DE CV" RegimenFiscal="601"/>
+  <cfdi:Receptor Rfc="XAXX010101000" Nombre="PUBLICO GENERAL" UsoCFDI="G01"/>
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="49221500" NoIdentificacion="ENTBG" Cantidad="1" ClaveUnidad="H87" Unidad="PZS" Descripcion="EMPEINERA NEXUS TKD BLANCO G" ValorUnitario="125.52" Importe="125.52">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="125.52" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="20.08"/>
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="49221500" NoIdentificacion="ENTBM" Cantidad="2" ClaveUnidad="H87" Unidad="PZS" Descripcion="EMPEINERA NEXUS TKD BLANCO M" ValorUnitario="125.52" Importe="251.03">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="251.03" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="40.17"/>
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="78141501" NoIdentificacion="FFA" Cantidad="1" ClaveUnidad="H87" Unidad="PZS" Descripcion="FLETE FLECHA AMARILLA NORMAL  " ValorUnitario="208.10" Importe="208.10">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="208.10" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="33.30"/>
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="53102504" NoIdentificacion="GNTBM" Cantidad="2" ClaveUnidad="H87" Unidad="PZS" Descripcion="GUANTE NEXUS TKD BLANCO M" ValorUnitario="125.52" Importe="251.03">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="251.03" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="40.17"/>
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="53102504" NoIdentificacion="GNTBXG" Cantidad="1" ClaveUnidad="H87" Unidad="PZS" Descripcion="GUANTE NEXUS TKD BLANCO XG" ValorUnitario="125.52" Importe="125.52">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="125.52" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="20.08"/>
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="153.80">
+    <cfdi:Traslados>
+      <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="153.80"/>
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+<cfdi:Complemento><tfd:TimbreFiscalDigital Version="1.1" UUID="0C3E30D8-1082-4865-AD73-B417FA4C8F31" FechaTimbrado="2018-01-09T23:22:02" RfcProvCertif="FEL100622S88" SelloCFD="lMrSQJVR8HfWNIBcYAG/ylRt4cfgKk0kY44gVugh49Af/sK59ZfDu4C3vFnf0qLPRRNxmaeDIp/Y2Btl69F+5KtHOk6nsbH4/rA5tMakX3/0KpatSXWPvcwQQV9cO6udCwFGwbQvsX1OJmH+CydJMG0nFPHy+CfiqL4lXR5d05pLSsl/l2YOor0tvL2OJdQWFjesXpmNSBZhbFwiaPt4c821sYSijonshA5r1gGdtyfQF24LG5HPi2A+qOrpqGMsfpFM9RCAv/m9OSCfZi/g0cVhpIqnX9O888JfJujlYAy6PTtjmclWnZzlfuhoiraQ7Xgy+emIsX1DtXP3f6I55A==" NoCertificadoSAT="00001000000408441752" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital"  SelloSAT="bvGkBOEvdo72JwFSXqs807QvEgHIx4QCos2+zpklHvJ67gX7gjxjygVt8qLmoQ1wPwww7mLn7MBqrxqd1x1SpqksG3syBqmCjKkAnOID7dYQS6b5+BrqRXg7Q3LPwDRrVdoF45lKoch9id755M6+i/77c/nmlD4ZOQOa2gz5GpHMHhor7gvGoenTtjTRNx0RTX9hqdfovstUMlA1QNgF1efm+A53hRbvX3eEY9WK9OidZca5nopjpxgYEV7JwOidSFL7vVIt8HymqHhANynPtLqxAYLs7T7zL3fLlqOlsR1MJQMI5csGw6PpEwPVr6WaDJf984XzcomiMvAU2MEePA==" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd"  /></cfdi:Complemento></cfdi:Comprobante>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Total="429.75" LugarExpedicion="67140" MetodoPago="PUE" TipoDeComprobante="I" Moneda="MXN" SubTotal="422.07" CondicionesDePago="Contado" Certificado="" NoCertificado="00001000000406336012" FormaPago="01" Sello="sin sello" Fecha="2018-01-02T05:49:15" Folio="65190" Serie="238" Version="3.3" xsi:schemaLocation="http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd">
+    <cfdi:Emisor RegimenFiscal="601" Nombre="Quesos y Carnes Frias del Norte S. A. " Rfc="QCF980101CT4"/>
+    <cfdi:Receptor UsoCFDI="G01" Nombre="JUAN RUBEN HERNANDEZ GONZALEZ" Rfc="HEGJ800211C74"/>
+    <cfdi:Conceptos>
+        <cfdi:Concepto Importe="47.000000" ValorUnitario="47.00000" Descripcion="Aderezo de Mayonesa Star value 3.52kg" Unidad="Pz" ClaveUnidad="H87" Cantidad="1" NoIdentificacion="738545060059" ClaveProdServ="50171830"/>
+        <cfdi:Concepto Importe="115.750800" ValorUnitario="40.70000" Descripcion="Pollo Hamburguesa De pechuga Kg" Unidad="Kg" ClaveUnidad="KGM" Cantidad="2.844" NoIdentificacion="820" ClaveProdServ="50111500"/>
+        <cfdi:Concepto Importe="63.700000" ValorUnitario="63.70000" Descripcion="Queso Americano Reb.ind. Biolac  1.82 Kg" Unidad="Pz" ClaveUnidad="H87" Cantidad="1" NoIdentificacion="7501639334960" ClaveProdServ="50131800"/>
+        <cfdi:Concepto Importe="104.001400" ValorUnitario="52.90000" Descripcion="Queso Contry Chester (Kg)" Unidad="Kg" ClaveUnidad="KGM" Cantidad="1.966" NoIdentificacion="891" ClaveProdServ="50131800"/>
+        <cfdi:Concepto Importe="48.017241" ValorUnitario="48.01724" Descripcion="Sal sabor mantequilla Rop 1 Kg" Unidad="Pz" ClaveUnidad="H87" Cantidad="1" NoIdentificacion="801842018501" ClaveProdServ="50171552">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Importe="7.682759" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="48.017241"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Importe="43.600000" ValorUnitario="43.60000" Descripcion="Salsa Catsup Zafran 204 Sobres" Unidad="Pz" ClaveUnidad="H87" Cantidad="1" NoIdentificacion="0202060008167" ClaveProdServ="50171832"/>
+    </cfdi:Conceptos>
+    <cfdi:Impuestos TotalImpuestosTrasladados="7.68" TotalImpuestosRetenidos="0.0">
+        <cfdi:Traslados>
+            <cfdi:Traslado Importe="7.682759" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002"/>
+        </cfdi:Traslados>
+    </cfdi:Impuestos>
+</cfdi:Comprobante>

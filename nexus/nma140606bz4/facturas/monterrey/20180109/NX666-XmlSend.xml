@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Total="0.0" LugarExpedicion="64820" MetodoPago="PUE" TipoDeComprobante="I" Moneda="MXN" SubTotal="86.21" CondicionesDePago="Contado" Certificado="" NoCertificado=" " FormaPago="01" Sello="sin sello" Fecha="2018-01-09T03:06:08" Folio="666" Serie="NX" Version="3.3" xsi:schemaLocation="http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd">
+    <cfdi:Emisor RegimenFiscal="601" Nombre="Nexus MA S.A. de C.V." Rfc="NMA140606BZ4"/>
+    <cfdi:Receptor UsoCFDI="G01" Nombre="JUAN RUBEN HERNANDEZ GONZALEZ" Rfc="HEGJ800211C74"/>
+    <cfdi:Conceptos>
+        <cfdi:Concepto Importe="86.206897" ValorUnitario="86.206897" Descripcion="PRUEBA" Unidad="PZS" ClaveUnidad="H87" Cantidad="1" NoIdentificacion="" ClaveProdServ="42231902">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Importe="13.793104" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="86.206897"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+    </cfdi:Conceptos>
+    <cfdi:Impuestos TotalImpuestosTrasladados="13.793104" TotalImpuestosRetenidos="0.0">
+        <cfdi:Traslados>
+            <cfdi:Traslado Importe="13.793104" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002"/>
+        </cfdi:Traslados>
+    </cfdi:Impuestos>
+</cfdi:Comprobante>

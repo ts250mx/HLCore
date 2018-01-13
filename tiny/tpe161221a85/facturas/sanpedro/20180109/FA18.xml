@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd" Version="3.3" Serie="FA" Folio="18" Fecha="2018-01-09T14:58:55" FormaPago="01" SubTotal="1737.07" Moneda="MXN" Total="2015" TipoDeComprobante="I" MetodoPago="PUE" LugarExpedicion="66220" NoCertificado="00001000000405707639" Certificado="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" Sello="jBk2ll4Y8Vr63Z4HeGy/FqxDw4Jqg2lCVrSZKYsS/p0OWETaO/EBPDeJxeFCsy5dMYZt482D+pOI7eqc5RCHq2kYTOhEgOZz2wiOnQBbhExX6Y7N3gTyPb7K1QaB4fZllDMdxf4zkQi1ZzBNo/ghB5jYaeIs62uZjtKm560TeEbWJrc1nWlu7mxmSZmefjwpou5r77stpreo8Frygz7RAAh2Ox6Sodm0ObdQgkTZgDwWCHfbNkmTVR35SR2ZLc9+P7Ii7ath0D7v4HEggl9ZyHNnc77zRZAbO7PUlpoi8vekUmH6nyoniTKETMtomTsj9FxRermkHwBgi1TahMV59w==">
+  <cfdi:Emisor Rfc="TPE161221A85" Nombre="TINY PEOPLE SA DE CV" RegimenFiscal="601"/>
+  <cfdi:Receptor Rfc="CDI090318K68" Nombre="CORPORATIVO DIECISIETE S.A DE CV" UsoCFDI="G01"/>
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="56101800" NoIdentificacion="11-2100" Cantidad="1" ClaveUnidad="H87" Unidad="PZS" Descripcion="Almohadas" ValorUnitario="448.28" Importe="448.28">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="448.28" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.16" Importe="71.72"/>
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="56101800" NoIdentificacion="11-1100" Cantidad="1" ClaveUnidad="H87" Unidad="PZS" Descripcion="Blankies" ValorUnitario="306.03" Importe="306.03">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="306.03" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.16" Importe="48.97"/>
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="60141000" NoIdentificacion="7-CKR34 " Cantidad="1" ClaveUnidad="H87" Unidad="PZS" Descripcion="HAMACA BOUNCER CURVE" ValorUnitario="982.76" Importe="982.76">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="982.76" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.16" Importe="157.24"/>
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="277.93">
+    <cfdi:Traslados>
+      <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.16" Importe="277.93"/>
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+<cfdi:Complemento><tfd:TimbreFiscalDigital Version="1.1" UUID="8DAF53CB-6433-4838-A610-3A767755A040" FechaTimbrado="2018-01-09T14:58:46" RfcProvCertif="FEL100622S88" SelloCFD="jBk2ll4Y8Vr63Z4HeGy/FqxDw4Jqg2lCVrSZKYsS/p0OWETaO/EBPDeJxeFCsy5dMYZt482D+pOI7eqc5RCHq2kYTOhEgOZz2wiOnQBbhExX6Y7N3gTyPb7K1QaB4fZllDMdxf4zkQi1ZzBNo/ghB5jYaeIs62uZjtKm560TeEbWJrc1nWlu7mxmSZmefjwpou5r77stpreo8Frygz7RAAh2Ox6Sodm0ObdQgkTZgDwWCHfbNkmTVR35SR2ZLc9+P7Ii7ath0D7v4HEggl9ZyHNnc77zRZAbO7PUlpoi8vekUmH6nyoniTKETMtomTsj9FxRermkHwBgi1TahMV59w==" NoCertificadoSAT="00001000000408441752" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital"  SelloSAT="YPUNP4VtXxD2lB7JIlveaqrTSAcSX2LiUJ2dPClNt0xlG0NFlgKmScE8P0iGBLaxx4lOWCFap+H2fpQxhyYVnD8Z1EerWOOHjHF6IXbapAiJz51u1OfjuMCK6VQOncHOOUd7Kd9k/2Lx6v4AzGL60VLHnQZoGwB6xZvseolDQfkpo0ia/3QppqYGJFzjQR9l+kakbELlGD1zSS7WRL8vJIu5pnmtefrgGg/8CVWl3ECxL7yIVf9sJmGN7nI9+lrHXeR3pEUQgNobcpdkIvi9dnqW2BQBeP0V5qCBh+6Klb/z5HYgIArptW6OezFCy7ndbT/BLfRIsPqQ57uMCl2FYg==" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd"  /></cfdi:Complemento></cfdi:Comprobante>
